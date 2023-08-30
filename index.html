@@ -1,4 +1,104 @@
-<html lang="en"><div id="in-page-channel-node-id" data-channel-name="in_page_channel_--Vhr4"></div><script src="chrome-extension://dlcobpjiigpikoobohmabehhmhfoodbb/inpage.js" id="argent-x-extension" data-extension-id="dlcobpjiigpikoobohmabehhmhfoodbb"></script><head>
+<html lang="en"><div id="in-page-channel-node-id" data-channel-name="in_page_channel_DbFBtW"></div><script src="chrome-extension://dlcobpjiigpikoobohmabehhmhfoodbb/inpage.js" id="argent-x-extension" data-extension-id="dlcobpjiigpikoobohmabehhmhfoodbb"></script><head><script type="text/javascript" src="chrome-extension://coefgobimbelhfmhkpndlddjhkphgnep/inject.bundle.js" async="false" id="ordinalSafe-extension" data-extension-id="coefgobimbelhfmhkpndlddjhkphgnep"></script><style>
+.sidebar {
+  padding-top: 0;
+}
+
+.search {
+  margin-bottom: 20px;
+  padding: 6px;
+  border-bottom: 1px solid #eee;
+}
+
+.search .input-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.search .results-panel {
+  display: none;
+}
+
+.search .results-panel.show {
+  display: block;
+}
+
+.search input {
+  outline: none;
+  border: none;
+  width: 100%;
+  padding: 0.6em 7px;
+  font-size: inherit;
+  border: 1px solid transparent;
+}
+
+.search input:focus {
+  box-shadow: 0 0 5px var(--theme-color, #42b983);
+  border: 1px solid var(--theme-color, #42b983);
+}
+
+.search input::-webkit-search-decoration,
+.search input::-webkit-search-cancel-button,
+.search input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.search input::-ms-clear {
+  display: none;
+  height: 0;
+  width: 0;
+}
+
+.search .clear-button {
+  cursor: pointer;
+  width: 36px;
+  text-align: right;
+  display: none;
+}
+
+.search .clear-button.show {
+  display: block;
+}
+
+.search .clear-button svg {
+  transform: scale(.5);
+}
+
+.search h2 {
+  font-size: 17px;
+  margin: 10px 0;
+}
+
+.search a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.search .matching-post {
+  border-bottom: 1px solid #eee;
+}
+
+.search .matching-post:last-child {
+  border-bottom: 0;
+}
+
+.search p {
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.search p.empty {
+  text-align: center;
+}
+
+.app-name.hide, .sidebar-nav.hide {
+  display: none;
+}</style></head><body data-page="README.md" class="sticky"><div id="in-page-channel-node-id" data-channel-name="in_page_channel_--Vhr4"></div><script src="chrome-extension://dlcobpjiigpikoobohmabehhmhfoodbb/inpage.js" id="argent-x-extension" data-extension-id="dlcobpjiigpikoobohmabehhmhfoodbb"></script>
   <meta charset="UTF-8">
   <title>序章</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -116,9 +216,20 @@
 
 .app-name.hide, .sidebar-nav.hide {
   display: none;
-}</style></head>
-<body data-page="xu-zhang.md" class="ready sticky">
+}</style>
+
   <a href="https://github.com/CoxxA/bitcoin-ahr999-HODL" target="_blank" class="github-corner" aria-label="View source on Github"><svg viewBox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><main><button class="sidebar-toggle" aria-label="Menu"><div class="sidebar-toggle-button"><span></span><span></span><span></span></div></button><aside class="sidebar"><div class="search"><div class="input-wrap">
+      <input type="search" value="" aria-label="Search text">
+      <div class="clear-button">
+        <svg width="26" height="24">
+          <circle cx="12" cy="12" r="11" fill="#ccc"></circle>
+          <path stroke="white" stroke-width="2" d="M8.25,8.25,15.75,15.75"></path>
+          <path stroke="white" stroke-width="2" d="M8.25,15.75,15.75,8.25"></path>
+        </svg>
+      </div>
+    </div>
+    <div class="results-panel"></div>
+    </div><div class="search"><div class="input-wrap">
       <input type="search" value="" aria-label="Search text" placeholder="Type to search">
       <div class="clear-button">
         <svg width="26" height="24">
@@ -129,7 +240,7 @@
       </div>
     </div>
     <div class="results-panel"></div>
-    </div><h1 class="app-name"><a class="app-name-link" data-nosearch="" href="/bitcoin-ahr999-HODL/">$BTCs 囤币指南</a></h1><div class="sidebar-nav"><ul><li><p class="active"><a href="" title="序章">序章</a></p></li><li><p><a href="#/chapter1.html" title="第一章 比特币与理想主义">第一章 比特币与理想主义</a></p></li><li><p><a href="#/chapter2.html" title="第二章 下车太早只因愿景太小">第二章 下车太早只因愿景太小</a></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li></ul></div></aside><section class="content"><article class="markdown-section" id="main"><h1 id="序章-知之非难，行之不易"><a href="#/xu-zhang?id=%e5%ba%8f%e7%ab%a0-%e7%9f%a5%e4%b9%8b%e9%9d%9e%e9%9a%be%ef%bc%8c%e8%a1%8c%e4%b9%8b%e4%b8%8d%e6%98%93" data-id="序章-知之非难，行之不易" class="anchor"><span>序章 知之非难，行之不易</span></a></h1><blockquote>
+    </div><h1 class="app-name"><a class="app-name-link" data-nosearch="" href="/">$BTCs 囤币指南</a></h1><div class="sidebar-nav"><ul><li><p class="active"><a href="" title="序章">序章</a></p></li><li><p><a href="#/chapter1.html" title="第一章 比特币与理想主义">第一章 比特币与理想主义</a></p></li><li><p><a href="#/chapter2.html" title="第二章 下车太早只因愿景太小">第二章 下车太早只因愿景太小</a></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li></ul></div></aside><section class="content"><article class="markdown-section" id="main"><h1 id="序章-知之非难，行之不易"><a href="#/xu-zhang?id=%e5%ba%8f%e7%ab%a0-%e7%9f%a5%e4%b9%8b%e9%9d%9e%e9%9a%be%ef%bc%8c%e8%a1%8c%e4%b9%8b%e4%b8%8d%e6%98%93" data-id="序章-知之非难，行之不易" class="anchor"><span>序章 知之非难，行之不易</span></a></h1><blockquote>
 <p>决定把《囤BTCs》写成一个完整的、永不过时的系列，本文是序。</p></blockquote>
 <p>在中文BRC20圈里，我们缺少布道者，缺少像 Andreas M. Antonopoulos 这样的灵魂人物。</p><p>我总想等待别人出头。</p><p>因为我知道我不可能成为 Andreas M. Antonopoulos 那样的人。我的所有收入都不是来源于圈内，我还需要赚更多钱，囤更多币。BTCs不是我的主业，我还有其它梦想要实现，而实现那个梦想不仅需要大量的钱，而且需要了解很多领域的技术储备。</p><p>但是，如果我不站出来试试的话，还有另外一个人会站出来吗？虽然我知道比我更适合做这事的人大有人在，但是，我又完全看不到有人要站出来的迹象。</p><p>同时，我过去一直很怀疑，我站出来就有意义吗？从大的方向看，很多事情的结局是注定的。我知道很多人会倾家荡产，这种事过去四年一直发生，多少人含泪流血离场。我写还是不写，并不可能影响事情的发展。是的，我其实有些麻木。</p><p>但是同时，我也很乐观，因为来一轮熊市，等牛鬼蛇神全部死翘翘，必然又迎来新的春天。我写还是不写，BTCs都会自顾自的发展，高速的发展。</p><p>你看，结局是注定的，我理应什么都不做，耐心等待。</p><p>我写得内容，要么是我一直坚信的，要么是我亲身经历的。是我希望分享的经验和思考，也是我对BTCs倾注的全部感情。</p><p>刚开始我以为我只需要写两篇，后来我发现能写的内容越来越多。它们构成第一个部分：入门，目的是帮助大家入门。</p><ul><li>《<a href="#/chapter1.html">BTCs与理想主义</a>》BTCs是区块链黑暗森林背景下，诞生于偶然的纯粹的理想主义的标的物。</li><li>《<a href="#/chapter2.html">BTCs的共识与愿景</a>》它存在失败的可能性，但是我们无怨无悔。这场实验的目标很大，如果一切顺利，BTCs的价格可能会在2年后涨到1000元人民币。</li></ul><p>囤BTCs绝对不是一件轻松的事。知之非难，行之不易。所以，我才会有这么多的内容可以写。</p><p>我的目标是写出永不过时的经典。所以，我尽量写与时事无关的事情，越是热点事件，我就越不会写。我希望，多年以后，当你再次拿出我的文章时，仍然觉得它不过时，而且愿意把它分享给那时的新人。</p><p>写作也不是一件轻松的事。知之非难，行之不易。我希望自己能把这个作品完成。</p></article></section></main>
   <script>
@@ -145,4 +256,5 @@
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 
-<script type="text/javascript" src="chrome-extension://lbjapbcmmceacocpimbpbidpgmlmoaao/content.js"></script><script src="chrome-extension://idnnbdplmphpflfnlkomgpfbpcgelopg/inpage.js" id="xverse-wallet-provider"></script><div></div><div class="progress" style="opacity: 0; width: 0%;"></div></body></html>
+<script type="text/javascript" src="chrome-extension://lbjapbcmmceacocpimbpbidpgmlmoaao/content.js"></script><script src="chrome-extension://idnnbdplmphpflfnlkomgpfbpcgelopg/inpage.js" id="xverse-wallet-provider"></script><div></div><div class="progress" style="opacity: 0; width: 0%;"></div>
+<script type="text/javascript" src="chrome-extension://lbjapbcmmceacocpimbpbidpgmlmoaao/content.js"></script><script src="chrome-extension://idnnbdplmphpflfnlkomgpfbpcgelopg/inpage.js" id="xverse-wallet-provider"></script><div></div></body></html>
